@@ -1,0 +1,123 @@
+@font-face {
+  font-family: ComputerModern;
+  src: url("./font/Serif/cmunrm.ttf");
+}
+
+@font-face {
+  font-family: ComputerModern;
+  src: url("./font/Serif/cmunbx.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ComputerModern;
+  src: url("./font/Serif/cmunti.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: ComputerModern;
+  src: url("./font/Serif/cmunbi.ttf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  background-color: #404040;
+  font-family: ComputerModern;
+}
+
+div.page {
+  background-color: #f2f2f2;
+  width: 1100px;
+  margin: auto auto;
+  border: 2px solid black;
+  height: 100%;
+  filter: drop-shadow(0px 0px 5px black);
+  padding-bottom: 150px;
+}
+
+div.navbar {
+  padding-left: 80%;
+  padding-top: 20px;
+  font-size: 16pt;
+}
+
+div.text {
+  font-size: 14pt;
+  padding: 10px;
+}
+
+div.section {
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+  width: 75%;
+  display: block;
+  margin: 20px auto;
+}
+
+#about {
+  text-align: justify;
+}
+
+div.section {
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+  width: 75%;
+  display: block;
+  margin: 20px auto;
+  text-align: left;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.it {
+  font-style: italic;
+}
+
+.subheader{
+  width: 300px;
+  text-align: center;
+  font-size: 12pt;
+  margin: 20px auto;
+}
+
+span.cour {
+  font-family: courier;
+}
+
+header {
+  width: 300px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20pt;
+  margin: 20px auto;
+}
+
+header .sc{
+  font-size: 14pt;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+
+a.ext{
+  border: 2px solid lightgreen;
+  color: black;
+  text-decoration: none;
+}
+
+a.int{
+  border: 2px solid red;
+  color: black;
+  text-decoration: none;
+}
+
+#unselected_link{
+  color: gray;
+}
